@@ -1,0 +1,122 @@
+==================== 2026-03-06T06:52:21.533894Z | d2ef7708-3e9f-4875-b465-6816085df997 ====================
+06:52:21.534098 [info ]: Starting dbt LSP server
+06:52:21.534239 [info ]: Connecting to LSP client on port 8000
+06:52:21.534517 [info ]: Successfully connected to LSP client
+06:52:21.534531 [info ]: Creating LSP service...
+06:52:21.572462 [info ]: Creating LSP server...
+06:52:21.572470 [info ]: Starting LSP server...
+06:52:21.587697 [info ]: Started loading project
+06:52:21.590682 [info ]: Loading ~/.dbt/profiles.yml
+06:52:21.681442 [debug]:    Started loading packages
+06:52:21.681885 [debug]:     Failed [  0.00s] packages (error: YAML error: missing field `name`)
+06:52:21.682464 [info ]: Finished loading project [  0.09s]
+06:52:27.167288 [info ]: Loading ~/.dbt/profiles.yml
+06:52:52.857587 [info ]: Started loading project
+06:52:52.857877 [info ]: Loading ~/.dbt/profiles.yml
+06:52:52.957564 [debug]:    Started loading packages
+06:52:52.958434 [debug]:     Loaded [  0.00s] packages
+06:52:52.959258 [info ]: Finished loading project [  0.10s]
+06:52:52.959281 [warn ]: dbt1007: `--compute inline` is not supported for adapter 'databricks'. Falling back to `--compute remote`.
+06:52:52.959609 [info ]: Started parsing
+06:52:52.978226 [info ]: Finished parsing [  0.02s]
+06:52:52.978390 [info ]: Cached model count updated: 0 models (estimate)
+06:52:52.978397 [info ]: Cached model count updated: 0 models (accurate)
+06:52:52.978504 [info ]: Started scheduling
+06:52:52.978659 [info ]: Finished scheduling [  0.00s]
+06:52:52.978691 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+06:52:52.978697 [info ]: Started scheduling
+06:52:52.978700 [info ]: Finished scheduling [  0.00s]
+06:52:52.979126 [info ]: Started deferring state
+06:52:52.979139 [info ]: Finished deferring state [  0.00s]
+06:52:53.058463 [info ]: Started building task graph
+06:52:53.058638 [info ]: Finished building task graph [  0.00s]
+06:52:53.060652 [info ]: Cached model count updated: 0 models (accurate)
+06:52:53.378353 [info ]: Loading ~/.dbt/profiles.yml
+06:55:12.580213 [info ]: Started loading project
+06:55:12.580832 [info ]: Loading ~/.dbt/profiles.yml
+06:55:12.583503 [info ]: Started loading project
+06:55:12.583698 [info ]: Loading ~/.dbt/profiles.yml
+06:55:12.583721 [info ]: Finished loading project [  0.00s]
+06:55:12.686973 [debug]:    Started loading packages
+06:55:12.687388 [debug]:     Loaded [  0.00s] packages
+06:55:12.687725 [warn ]: dbt1007: `--compute inline` is not supported for adapter 'databricks'. Falling back to `--compute remote`.
+06:55:12.687745 [info ]: Finished loading project [  0.10s]
+06:55:12.687830 [info ]: Started parsing
+06:55:12.703637 [debug]: Finished parsing models/example_model.sql [  0.00s]
+06:55:12.703812 [info ]: Finished parsing [  0.02s]
+06:55:12.703890 [info ]: Cached model count updated: 1 models (estimate)
+06:55:12.703897 [info ]: Cached model count updated: 1 models (accurate)
+06:55:12.703910 [info ]: Started scheduling
+06:55:12.703956 [info ]: Finished scheduling [  0.00s]
+06:55:12.703962 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+06:55:12.703967 [info ]: Started scheduling
+06:55:12.703971 [info ]: Finished scheduling [  0.00s]
+06:55:12.704171 [info ]: Started deferring state
+06:55:12.704175 [info ]: Finished deferring state [  0.00s]
+06:55:12.777963 [info ]: Started building task graph
+06:55:12.778028 [info ]: Finished building task graph [  0.00s]
+06:55:12.780715 [info ]: Cached model count updated: 1 models (accurate)
+06:55:15.312356 [info ]: Started loading project
+06:55:15.312877 [info ]: Loading ~/.dbt/profiles.yml
+06:55:15.315574 [warn ]: dbt1007: `--compute inline` is not supported for adapter 'databricks'. Falling back to `--compute remote`.
+06:55:15.315604 [info ]: Finished loading project [  0.00s]
+06:55:15.316695 [info ]: Started parsing
+06:55:15.333699 [info ]: Finished parsing [  0.02s]
+06:55:15.334648 [info ]: Cached model count updated: 1 models (estimate)
+06:55:15.334658 [info ]: Cached model count updated: 1 models (accurate)
+06:55:15.334670 [info ]: Started scheduling
+06:55:15.334717 [info ]: Finished scheduling [  0.00s]
+06:55:15.334725 [debug]: Incremental compilation - 0 nodes selected: {}
+06:55:15.334733 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+06:55:15.334737 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+06:55:15.335147 [info ]: Started deferring state
+06:55:15.335165 [info ]: Finished deferring state [  0.00s]
+06:55:15.420785 [info ]: Started building task graph
+06:55:15.420808 [info ]: Finished building task graph [  0.00s]
+06:55:15.422715 [info ]: Cached model count updated: 1 models (accurate)
+06:55:22.833555 [info ]: Started loading project
+06:55:22.833912 [info ]: Loading ~/.dbt/profiles.yml
+06:55:22.835636 [warn ]: dbt1007: `--compute inline` is not supported for adapter 'databricks'. Falling back to `--compute remote`.
+06:55:22.835662 [info ]: Finished loading project [  0.00s]
+06:55:22.836365 [info ]: Started parsing
+06:55:22.851472 [debug]: Finished parsing models/example_model.sql [  0.00s]
+06:55:22.851640 [info ]: Finished parsing [  0.02s]
+06:55:22.852333 [info ]: Cached model count updated: 1 models (estimate)
+06:55:22.852342 [info ]: Cached model count updated: 1 models (accurate)
+06:55:22.852356 [info ]: Started scheduling
+06:55:22.852593 [info ]: Finished scheduling [  0.00s]
+06:55:22.852601 [debug]: Incremental compilation - 1 nodes selected: {"model.ddo_data_dev.example_model"}
+06:55:22.852874 [info ]: Started deferring state
+06:55:22.852880 [info ]: Finished deferring state [  0.00s]
+06:55:22.937019 [info ]: Started building task graph
+06:55:22.937133 [info ]: Finished building task graph [  0.00s]
+06:55:22.937353 [info ]: Started rendering (1 nodes)
+06:55:22.937414 [info ]: Started model databricks_catalog.bronze.example_model
+06:55:22.937450 [debug]: Started rendering model databricks_catalog.bronze.example_model
+06:55:22.938582 [debug]: Compiled SQL for node model.ddo_data_dev.example_model at target/.lsp/compiled/models/example_model.sql
+06:55:22.938705 [debug]: Finished rendering [  0.00s] model databricks_catalog.bronze.example_model [success]
+06:55:22.938711 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:55:22.938728 [info ]: Started analyzing (1 nodes)
+06:55:22.938732 [debug]: Started analyzing model databricks_catalog.bronze.example_model
+06:55:22.948303 [info ]:  Succeeded [  0.01s] model databricks_catalog.bronze.example_model (view)
+06:55:22.948314 [debug]: Finished analyzing [  0.01s] model databricks_catalog.bronze.example_model [success]
+06:55:22.948316 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+06:55:22.951382 [info ]: Cached model count updated: 1 models (accurate)
+06:55:27.649158 [info ]: Started loading project
+06:55:27.649696 [info ]: Loading ~/.dbt/profiles.yml
+06:55:27.651794 [warn ]: dbt1007: `--compute inline` is not supported for adapter 'databricks'. Falling back to `--compute remote`.
+06:55:27.651824 [info ]: Finished loading project [  0.00s]
+06:55:27.652699 [info ]: Started parsing
+06:55:27.669051 [info ]: Finished parsing [  0.02s]
+06:55:27.669712 [info ]: Cached model count updated: 1 models (estimate)
+06:55:27.669722 [info ]: Cached model count updated: 1 models (accurate)
+06:55:27.669736 [info ]: Started scheduling
+06:55:27.669755 [info ]: Finished scheduling [  0.00s]
+06:55:27.669763 [debug]: Incremental compilation - 0 nodes selected: {}
+06:55:27.669771 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+06:55:27.669778 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+06:55:27.670056 [info ]: Started deferring state
+06:55:27.670063 [info ]: Finished deferring state [  0.00s]
+06:55:27.755077 [info ]: Started building task graph
+06:55:27.755097 [info ]: Finished building task graph [  0.00s]
+06:55:27.757140 [info ]: Cached model count updated: 1 models (accurate)

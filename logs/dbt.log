@@ -1,0 +1,296 @@
+==================== 2026-03-06T05:34:00.421576Z | 019cc1a3-72da-7a60-8e80-3286c528e0f5 ====================
+05:34:00.423417 [info ]: Installing dbt project and profile setup
+05:34:00.425057 [info ]: Warning A dbt_project.yml already exists in this directory; skipping sample project creation.
+05:34:00.426182 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+05:34:39.955635 [info ]: Success Added profile 'y' to dbt_project.yml
+05:34:39.956023 [info ]: Info Setting up your profile...
+05:34:39.963182 [info ]: Info Creating new profile...
+05:34:42.878563 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+06:29:37.175697 [info ]: Success Profile written to /Users/Personal/.dbt/profiles.yml
+06:29:37.177057 [info ]: Validating profile inputs, adapters, and connection
+
+06:29:37.177652 [info ]: dbt-fusion 2.0.0-preview.144
+06:29:37.179691 [info ]: Started loading project
+06:29:37.200049 [info ]: Loading ~/.dbt/profiles.yml
+06:29:37.210284 [info ]: Finished loading project [  0.03s]
+06:29:37.211415 [info ]: Started debugging
+06:29:37.211618 [info ]: Debugging profile: dev
+06:29:37.211645 [info ]: Debugging dbt version: 2.0.0-preview.144
+06:29:37.211801 [info ]: Debugging platform: macos aarch64 (unix)
+06:29:37.211949 [info ]: Debugging adapter type: databricks (remote)
+06:29:37.236364 [info ]: Debugging dependencies:
+  git: OK
+06:29:37.238506 [info ]: Debugging connection:
+  "schema": "bronze",
+  "host": "dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555",
+  "http_path": "dbc-88beebc8-caca.cloud.databricks.com"
+06:29:43.706081 [info ]: Finished debugging [  6.49s]
+06:29:43.707907 [error]: dbt1011: failed to ping database: databricks: request error: error connecting: host=dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555 port=443, httpPath=/dbc-88beebc8-caca.cloud.databricks.com: databricks: request error: open session request error: Post "https://dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555:443/dbc-88beebc8-caca.cloud.databricks.com": request error after 1 attempt(s): unexpected HTTP status 404 Not Found
+06:29:44.503816 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:29:45.482979 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [55m 45s]
+==================== 2026-03-06T06:30:20.111576Z | 019cc1d7-04ce-7720-baf0-21f4e7ea9cad ====================
+06:30:20.111634 [info ]: Installing dbt project and profile setup
+06:30:20.111712 [info ]: Warning A dbt_project.yml already exists in this directory; skipping sample project creation.
+06:30:20.113019 [info ]: Info dbt extension already recommended in .vscode/extensions.json, skipping
+06:30:20.113417 [info ]: Info Setting up your profile...
+06:30:20.113793 [info ]: Loading ~/.dbt/profiles.yml
+06:30:20.115673 [info ]: Profile 'y' already exists. You can choose how to proceed.
+06:30:29.245498 [info ]: Info Profile setup cancelled.
+06:30:29.245649 [info ]: Validating profile inputs, adapters, and connection
+
+06:30:29.245734 [info ]: dbt-fusion 2.0.0-preview.144
+06:30:29.245899 [info ]: Started loading project
+06:30:29.247047 [info ]: Loading ~/.dbt/profiles.yml
+06:30:29.247770 [info ]: Finished loading project [  0.00s]
+06:30:29.247869 [info ]: Started debugging
+06:30:29.247916 [info ]: Debugging profile: dev
+06:30:29.247946 [info ]: Debugging dbt version: 2.0.0-preview.144
+06:30:29.247965 [info ]: Debugging platform: macos aarch64 (unix)
+06:30:29.247986 [info ]: Debugging adapter type: databricks (remote)
+06:30:29.271961 [info ]: Debugging dependencies:
+  git: OK
+06:30:29.272087 [info ]: Debugging connection:
+  "schema": "bronze",
+  "host": "dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555",
+  "http_path": "dbc-88beebc8-caca.cloud.databricks.com"
+06:30:30.280391 [info ]: Finished debugging [  1.03s]
+06:30:30.280546 [error]: dbt1011: failed to ping database: databricks: request error: error connecting: host=dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555 port=443, httpPath=/dbc-88beebc8-caca.cloud.databricks.com: databricks: request error: open session request error: Post "https://dbc-88beebc8-caca.cloud.databricks.com/browse?o=3846877884397555:443/dbc-88beebc8-caca.cloud.databricks.com": request error after 1 attempt(s): unexpected HTTP status 404 Not Found
+06:30:30.439107 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:30:30.614428 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [10.5s]
+==================== 2026-03-06T06:30:53.548039Z | 019cc1d7-876b-7460-8ce7-e3d14753a071 ====================
+06:30:53.548120 [info ]: Installing dbt project and profile setup
+06:30:53.548224 [info ]: Warning A dbt_project.yml already exists in this directory; skipping sample project creation.
+06:30:53.548338 [info ]: Info dbt extension already recommended in .vscode/extensions.json, skipping
+06:30:53.548459 [info ]: Info Setting up your profile...
+06:30:53.548657 [info ]: Loading ~/.dbt/profiles.yml
+06:30:53.550025 [info ]: Profile 'y' already exists. You can choose how to proceed.
+06:30:56.145394 [info ]: Info Creating new profile...
+06:30:57.375550 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+06:34:08.028528 [info ]: Info Backup created at /Users/Personal/.dbt/profiles.yml.bkp
+06:34:08.029072 [info ]: Success Profile written to /Users/Personal/.dbt/profiles.yml
+06:34:08.029179 [info ]: Validating profile inputs, adapters, and connection
+
+06:34:08.029232 [info ]: dbt-fusion 2.0.0-preview.144
+06:34:08.029430 [info ]: Started loading project
+06:34:08.030601 [info ]: Loading ~/.dbt/profiles.yml
+06:34:08.031324 [info ]: Finished loading project [  0.00s]
+06:34:08.031427 [info ]: Started debugging
+06:34:08.031476 [info ]: Debugging profile: dev
+06:34:08.031504 [info ]: Debugging dbt version: 2.0.0-preview.144
+06:34:08.031521 [info ]: Debugging platform: macos aarch64 (unix)
+06:34:08.031541 [info ]: Debugging adapter type: databricks (remote)
+06:34:08.054111 [info ]: Debugging dependencies:
+  git: OK
+06:34:08.054197 [info ]: Debugging connection:
+  "schema": "databricks_catalog.bronze",
+  "host": "dbc-88beebc8-caca.cloud.databricks.com",
+  "http_path": "/sql/1.0/warehouses/677210ab4f436bb3"
+06:34:08.089333 [info ]: Finished debugging [  0.06s]
+06:34:08.089394 [error]: dbt1011: failed to ping database: databricks: request error: error connecting: host=dbc-88beebc8-caca.cloud.databricks.com port=443, httpPath=/sql/1.0/warehouses/677210ab4f436bb3: databricks: request error: open session request error: Post "https://dbc-88beebc8-caca.cloud.databricks.com:443/sql/1.0/warehouses/677210ab4f436bb3": request error after 1 attempt(s): Post "https://dbc-88beebc8-caca.cloud.databricks.com:443/sql/1.0/warehouses/677210ab4f436bb3": net/http: invalid header field value for "Authorization"
+06:34:08.614815 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:34:09.253688 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [3m 16s]
+==================== 2026-03-06T06:35:59.205705Z | 019cc1dc-315a-7812-8e63-d52ea6bf6ef8 ====================
+06:35:59.207778 [info ]: Installing dbt project and profile setup
+06:35:59.209535 [info ]: Warning A dbt_project.yml already exists in this directory; skipping sample project creation.
+06:35:59.210796 [info ]: Info dbt extension already recommended in .vscode/extensions.json, skipping
+06:35:59.212173 [info ]: Info Setting up your profile...
+06:35:59.217070 [info ]: Loading ~/.dbt/profiles.yml
+06:35:59.227283 [info ]: Profile 'y' already exists. You can choose how to proceed.
+06:36:04.318335 [info ]: Info Editing existing profile...
+06:36:05.203024 [info ]: Editing existing profile - skipping cloud config fetch
+06:37:47.745582 [info ]: Info Backup created at /Users/Personal/.dbt/profiles.yml.bkp
+06:37:47.746037 [info ]: Success Profile written to /Users/Personal/.dbt/profiles.yml
+06:37:47.747600 [info ]: Validating profile inputs, adapters, and connection
+
+06:37:47.748211 [info ]: dbt-fusion 2.0.0-preview.144
+06:37:47.750155 [info ]: Started loading project
+06:37:47.762813 [info ]: Loading ~/.dbt/profiles.yml
+06:37:47.766871 [info ]: Finished loading project [  0.02s]
+06:37:47.767956 [info ]: Started debugging
+06:37:47.768125 [info ]: Debugging profile: dev
+06:37:47.768147 [info ]: Debugging dbt version: 2.0.0-preview.144
+06:37:47.768158 [info ]: Debugging platform: macos aarch64 (unix)
+06:37:47.768330 [info ]: Debugging adapter type: databricks (remote)
+06:37:47.786736 [info ]: Debugging dependencies:
+  git: OK
+06:37:47.789323 [info ]: Debugging connection:
+  "schema": "databricks_catalog.bronze",
+  "host": "dbc-88beebc8-caca.cloud.databricks.com",
+  "http_path": "/sql/1.0/warehouses/677210ab4f436bb3"
+06:38:08.940484 [debug]: Query executed on node unknown:
+select 1 as id
+06:38:08.944256 [info ]: Debugging connection test: OK
+06:38:08.945567 [info ]: Debugged All checks passed!
+06:38:08.945836 [info ]: Finished debugging [ 21.18s]
+06:38:09.878573 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:38:10.320969 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully for target 'dev' [2m 11s]
+==================== 2026-03-06T06:51:03.871044Z | 019cc1e9-ff3d-7f73-b16f-6b7afdfd88bf ====================
+06:51:03.871103 [info ]: dbt-fusion 2.0.0-preview.144
+06:51:03.871188 [info ]: Started loading project
+06:51:03.872948 [info ]: Loading ~/.dbt/profiles.yml
+06:51:03.974534 [debug]:    Started loading packages
+06:51:03.978265 [debug]:     Failed [  0.00s] packages (error: YAML error: missing field `name`)
+06:51:03.979728 [info ]: Finished loading project [  0.11s]
+06:51:03.980237 [error]: dbt1013: YAML error: missing field `name`
+  --> dbt_project.yml:1:1
+06:51:05.166635 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [1.3s]
+==================== 2026-03-06T06:53:00.869481Z | 019cc1eb-c844-7090-af4e-18ae9e96741a ====================
+06:53:00.869543 [info ]: dbt-fusion 2.0.0-preview.144
+06:53:00.869629 [info ]: Started loading project
+06:53:00.871158 [info ]: Loading ~/.dbt/profiles.yml
+06:53:00.982619 [debug]:    Started loading packages
+06:53:00.987647 [debug]:     Loaded [  0.01s] packages
+06:53:00.990929 [info ]: Finished loading project [  0.12s]
+06:53:00.992052 [info ]: Started parsing
+06:53:01.030547 [info ]: Finished parsing [  0.04s]
+06:53:01.032941 [info ]: Started scheduling
+06:53:01.033589 [info ]: Finished scheduling [  0.00s]
+06:53:01.033724 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+06:53:01.036063 [info ]: Started deferring state
+06:53:01.036078 [info ]: Finished deferring state [  0.00s]
+06:53:01.130435 [info ]: Started building task graph
+06:53:01.131508 [info ]: Finished building task graph [  0.00s]
+06:53:01.456985 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:53:02.411662 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'dev' [1.5s]
+==================== 2026-03-06T06:55:26.216478Z | 019cc1ed-fffc-7af2-a1ea-27a2254a64ec ====================
+06:55:26.218657 [info ]: dbt-fusion 2.0.0-preview.144
+06:55:26.220774 [info ]: Started loading project
+06:55:26.237879 [info ]: Loading ~/.dbt/profiles.yml
+06:55:26.339616 [debug]:    Started loading packages
+06:55:26.344084 [debug]:     Loaded [  0.00s] packages
+06:55:26.347511 [info ]: Finished loading project [  0.13s]
+06:55:26.348981 [info ]: Started parsing
+06:55:26.384051 [debug]: Finished parsing models/example_model.sql [  0.00s]
+06:55:26.388209 [info ]: Finished parsing [  0.04s]
+06:55:26.390726 [info ]: Started scheduling
+06:55:26.391881 [info ]: Finished scheduling [  0.00s]
+06:55:26.395194 [info ]: Started deferring state
+06:55:26.395210 [info ]: Finished deferring state [  0.00s]
+06:55:26.482631 [info ]: Started building task graph
+06:55:26.484092 [info ]: Finished building task graph [  0.00s]
+06:55:26.487888 [info ]: Started rendering (1 nodes)
+06:55:26.488174 [info ]: Started model databricks_catalog.bronze.example_model
+06:55:26.488407 [debug]: Started rendering model databricks_catalog.bronze.example_model
+06:55:26.491586 [debug]: Compiled SQL for node model.ddo_data_dev.example_model at target/compiled/models/example_model.sql
+06:55:26.492050 [debug]: Finished rendering [  0.00s] model databricks_catalog.bronze.example_model [success]
+06:55:26.492073 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:55:26.492204 [info ]: Started analyzing (1 nodes)
+06:55:26.492217 [debug]: Started analyzing model databricks_catalog.bronze.example_model
+==================== 2026-03-06T06:59:56.714134Z | 019cc1f2-20a1-7cd0-837d-5267431bb744 ====================
+06:59:56.716014 [info ]: dbt-fusion 2.0.0-preview.144
+06:59:56.717874 [info ]: Started loading project
+06:59:56.731759 [info ]: Loading ~/.dbt/profiles.yml
+06:59:56.834668 [debug]:    Started loading packages
+06:59:56.838943 [debug]:     Loaded [  0.00s] packages
+06:59:56.842401 [info ]: Finished loading project [  0.12s]
+06:59:56.843769 [info ]: Started parsing
+06:59:56.877985 [debug]: Finished parsing models/example_model.sql [  0.00s]
+06:59:56.881914 [info ]: Finished parsing [  0.04s]
+06:59:56.884466 [info ]: Started scheduling
+06:59:56.885556 [info ]: Finished scheduling [  0.00s]
+06:59:56.888529 [info ]: Started deferring state
+06:59:56.888544 [info ]: Finished deferring state [  0.00s]
+06:59:56.973675 [info ]: Started building task graph
+06:59:56.975270 [info ]: Finished building task graph [  0.00s]
+06:59:56.979551 [info ]: Started rendering (1 nodes)
+06:59:56.979844 [info ]: Started model bronze.example_model
+06:59:56.979989 [debug]: Started rendering model bronze.example_model
+06:59:56.983011 [debug]: Compiled SQL for node model.ddo_data_dev.example_model at target/compiled/models/example_model.sql
+06:59:56.983477 [debug]: Finished rendering [  0.00s] model bronze.example_model [success]
+06:59:56.983501 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:59:56.983637 [info ]: Started analyzing (1 nodes)
+06:59:56.983648 [debug]: Started analyzing model bronze.example_model
+06:59:57.016166 [info ]:  Succeeded [  0.04s] model bronze.example_model (view)
+06:59:57.016198 [debug]: Finished analyzing [  0.03s] model bronze.example_model [success]
+06:59:57.016224 [info ]: Finished analyzing [  0.03s] (1 nodes, 0 skipped, 0 errors)
+06:59:57.214045 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+06:59:58.052843 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.3s]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-03-06T07:01:02.866735Z | 019cc1f3-2308-72e1-b6db-e29418d5ea9e ====================
+07:01:02.869348 [info ]: dbt-fusion 2.0.0-preview.144
+07:01:02.871820 [info ]: Started loading project
+07:01:02.891800 [info ]: Loading ~/.dbt/profiles.yml
+07:01:02.998686 [debug]:    Started loading packages
+07:01:03.003707 [debug]:     Loaded [  0.01s] packages
+07:01:03.007511 [info ]: Finished loading project [  0.14s]
+07:01:03.009501 [info ]: Started parsing
+07:01:03.053401 [debug]: Finished parsing models/example_model.sql [  0.01s]
+07:01:03.059543 [info ]: Finished parsing [  0.05s]
+07:01:03.062658 [info ]: Started scheduling
+07:01:03.063672 [info ]: Finished scheduling [  0.00s]
+07:01:03.067199 [info ]: Started deferring state
+07:01:03.067230 [info ]: Finished deferring state [  0.00s]
+07:01:03.171255 [info ]: Started building task graph
+07:01:03.173359 [info ]: Finished building task graph [  0.00s]
+07:01:23.519969 [debug]: Query executed on node unknown:
+/* {"app": "dbt", "connection_name": "", "dbt_version": "2.0.0", "profile_name": "y", "target_name": "dev"} */
+SHOW SCHEMAS IN `databricks_catalog`
+07:01:23.526195 [info ]: Started rendering (1 nodes)
+07:01:23.527009 [info ]: Started model bronze.example_model
+07:01:23.527486 [debug]: Started rendering model bronze.example_model
+07:01:23.532746 [debug]: Compiled SQL for node model.ddo_data_dev.example_model at target/compiled/models/example_model.sql
+07:01:23.533730 [debug]: Finished rendering [  0.01s] model bronze.example_model [success]
+07:01:23.533783 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+07:01:23.533827 [info ]: Started analyzing (1 nodes)
+07:01:23.533852 [debug]: Started analyzing model bronze.example_model
+07:01:23.571802 [debug]: Finished analyzing [  0.04s] model bronze.example_model [success]
+07:01:23.571850 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+07:01:23.571871 [info ]: Started running (1 nodes)
+07:01:23.571891 [debug]: Started running model bronze.example_model
+07:01:23.573762 [debug]: MATERIALIZING VIEW
+07:01:28.867864 [debug]: Query executed on node model.ddo_data_dev.example_model:
+
+SELECT
+    table_name,
+    if(table_type IN ('EXTERNAL', 'MANAGED', 'MANAGED_SHALLOW_CLONE', 'EXTERNAL_SHALLOW_CLONE'), 'table', lower(table_type)) AS table_type,
+    lower(data_source_format) AS file_format,
+    table_schema,
+    table_owner,
+    table_catalog,
+    if(
+    table_type IN (
+        'EXTERNAL',
+        'MANAGED',
+        'MANAGED_SHALLOW_CLONE',
+        'EXTERNAL_SHALLOW_CLONE'
+    ),
+    lower(table_type),
+    NULL
+    ) AS databricks_table_type
+FROM `system`.`information_schema`.`tables`
+WHERE table_catalog = 'databricks_catalog'
+    AND table_schema = 'bronze'
+07:01:28.870596 [debug]: Creating view `databricks_catalog`.`bronze`.`example_model`
+07:01:28.877271 [debug]: Writing runtime sql for node "model.ddo_data_dev.example_model"
+07:01:30.482421 [debug]: Query executed on node model.ddo_data_dev.example_model:
+/* {"app": "dbt", "dbt_version": "2.0.0", "node_id": "model.ddo_data_dev.example_model", "profile_name": "y", "target_name": "dev"} */
+create or replace view `databricks_catalog`.`bronze`.`example_model`
+  
+  as (
+    select 1
+  )
+07:01:30.483803 [debug]: Applying tags to relation None
+07:01:30.486853 [info ]:  Succeeded [  6.96s] model bronze.example_model (view)
+07:01:30.487173 [debug]: Finished running [  6.92s] model bronze.example_model [success]
+07:01:30.487246 [info ]: Finished running [  6.92s] (1 nodes, 0 skipped, 0 errors)
+07:01:30.509851 [info ]: New version available 2.0.0-preview.145 (run `dbt system update`)
+07:01:30.782302 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' successfully for target 'dev' [27.9s]
+Processed: 1 model
+Summary: 1 total | 1 success

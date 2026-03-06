@@ -1,1 +1,16 @@
+name: ddo_data_dev
+version: 1.0.0
+config-version: 2
 
+profile: y
+
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+models:
+  ddo_data_dev:
+    +materialized: view
